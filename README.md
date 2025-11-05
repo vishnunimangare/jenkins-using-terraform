@@ -36,7 +36,7 @@ terraform --version
 
 Inside the project folder:
 
-E:\Ethans2025\Devops Projects\jenkins-using-terraform> terraform init
+E:\Devops Projects\jenkins-using-terraform> terraform init
 
 
 This initializes Terraform and downloads necessary AWS provider plugins.
@@ -45,7 +45,7 @@ This initializes Terraform and downloads necessary AWS provider plugins.
 
 Run the apply command:
 
-E:\Ethans2025\Devops Projects\jenkins-using-terraform> terraform apply
+E:\Devops Projects\jenkins-using-terraform> terraform apply
 
 
 Terraform provisions the EC2 instance and other required resources automatically.
