@@ -74,8 +74,6 @@ Example:
 
 Open the Jenkins URL in your browser
 
-Paste the initial admin password
-
 Click “Install suggested plugins”
 
 Create your Jenkins admin user (Username, Password, Full name, Email)
