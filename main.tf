@@ -10,7 +10,7 @@ resource "tls_private_key" "jenkins" {
 
 resource "local_file" "private_key" {
   content              = tls_private_key.jenkins.private_key_pem
-  filename             = "${path.module}/jenkins.pem"
+  filename             = "${path.module}/jenkins_new.pem"
   file_permission      = "0400"
   directory_permission = "0700"
 }
